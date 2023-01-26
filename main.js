@@ -7,30 +7,27 @@ function chatBot() {
       this.input = input.toLowerCase();
   
       if (this.match('(hi|hello)'))
-      return "Hi there";
+      return "Hiiii lovely! I'm Ivee♥";
   
       if (this.match('(how are you)'))
-         return "Okay, how are you?";
+         return "im fine how about you?";
   
-         if (this.match('(how old are you)'))
-         return "Infinity";
+         if (this.match('(sad)'))
+         return "You look upset,Did something bad happen? I'm willing to listen:>";
   
-         if (this.match('(what is your name)'))
-         return "ivee or you can call me ivee";
+         if (this.match('(feel)'))
+         return "That must be upsetting, I want to understand, can you tell me more?";
              
- if (this.match('(can i share something?)'))
-         return "sure you can tell me anything you want♥";
-         if (this.match('(can i tell something?)'))
-         return "sure you can tell me anything you want♥";
-         if (this.match('(can i share it with you?)'))
-         return "sure you can tell me all of those problem you have";
+ if (this.match('(tired)'))
+        return"I understand now, I know that you're stressed out and things pretty overwhelming, I just wanna say that you're a brave person to keep surving each day even though you're struggling ,I'm always proud of you!"
         
-        if (this.match('(qoutes)'))
+if (this.match('(give up)'))
+         return "Everything may be okay not now but soon. Be positive and don't give up. Keep going u did well<3";
+        
+ if (this.match('(qoutes)'))
          return "hakuna matata means nothing to worry-disney land";
- if (this.match('(tell)'))
-         return "sure you can tell me anything you want";
-         if (this.match('(where to start)'))
-         return "Start where you are comfortable or wherever you want♥";
+
+   
 
   
       return input + ", I don't understand what it is";
