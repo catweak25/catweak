@@ -16,7 +16,7 @@ function chatBot() {
         if (this.match('(sad)'))
          return"You look upset,Did something bad happen? I'm willing to listen:>";
 
-          if (this.match('()'))
+          if (this.match('(ivee)'))
            return"IVEE means 4 in roman numerals ,why 4?  Because my programmers came from group 4:>";
 
 if (this.match('(name)'))
