@@ -93,9 +93,7 @@ function chatBot() {
        if (this.match('(1)'))
        return "hi im the person who make IVEE i create this bot to help other or matulungan sila na mag open up dahil minsan eh nahihirapan sila na mag sabi sa ibang tao and dito is mas mapapadali natin sila na matulongan yes totoo sira ako or must known as a broken man im not sad nor happy i just having a hard time but,i always make sure i'll always win and i'll always do my best";
 
-       if (this.match('()'))
-       return "";
-
+  
        
        if (this.match('(feel)'))
        return "That must be upsetting, I want to understand, can you tell me more?";
