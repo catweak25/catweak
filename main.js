@@ -7,107 +7,104 @@ function chatBot() {
     this.input = input.toLowerCase();
 
     if (this.match('(hi|hello)'))
-    return "Hiiii lovely! I'm Ivee";
+    return"Hiiii lovely! I'm Ivee";
 
-    if (this.match('(how are you)'))
-       return "im fine how about you?";
+     if (this.match('(how are you)'))
+       return"im fine how about you?";
 
-       if (this.match('(sad)'))
-       return "You look upset,Did something bad happen? I'm willing to listen:>";
+    
+        if (this.match('(sad)'))
+         return"You look upset,Did something bad happen? I'm willing to listen:>";
 
-       if (this.match('(IVEE)'))
-       return "IVEE means 4 in roman numerals ,why 4?  Because my programmers came from group 4:>";
+          if (this.match('()'))
+           return"IVEE means 4 in roman numerals ,why 4?  Because my programmers came from group 4:>";
 
-       if (this.match('(Name)'))
-       return "Hellooooo! I'm IVEE the bot programmed by pusa";
+if (this.match('(name)'))
+ return"Hellooooo! I'm IVEE the bot programmed by pusa";
 
-       if (this.match('(Open up)'))
-       return "Don't worry, you can open up to me, I'm all ears";
+             if (this.match('(open up)'))
+             return"Don't worry, you can open up to me, I'm all ears";
 
-       if (this.match('(Worried)'))
-       return "I know how heavy it feels, like you're running to a path that never ends but sometimes we need to stop,to rest, to think about  our own peace. I know that  you're such a good person that's why you worry but you should let uncontrollable things to happen and focus how to solve the problem it gives";
+if (this.match('(worried)'))
+ return"I know how heavy it feels, like you're running to a path that never ends but sometimes we need to stop,to rest, to think about  our own peace. I know that  you're such a good person that's why you worry but you should let uncontrollable things to happen and focus how to solve the problem it gives";
 
-       if (this.match('(Betrayed)'))
-       return "That's painful but that's not your loss. A wonderful person like you deserves better so cheer up! You'll meet someone who never break your trust";
+if (this.match('(betrayed)'))
+return"That's painful but that's not your loss. A wonderful person like you deserves better so cheer up! You'll meet someone who never break your trust";
 
-       if (this.match('(depress)'))
-       return "Hey I wanna say that you will be okay, I know it sucks to feel in that way. Maybe you feel like you're getting drowned to a flood of sadness . Let it out.... let the flood dried out and take a look inside, because past of that sadness and sorrow is your beautiful flourishing self. You learned something new about that experience , but most importantly maybe it taught you something about yourself. Flowers can't grow without rain you'll grow and some day when you've overcome this you'll become a better person i know you can do it";
+if (this.match('(depress)'))
+return"Hey I wanna say that you will be okay, I know it sucks to feel in that way. Maybe you feel like you're getting drowned to a flood of sadness . Let it out.... let the flood dried out and take a look inside, because past of that sadness and sorrow is your beautiful flourishing self. You learned something new about that experience , but most importantly maybe it taught you something about yourself. Flowers can't grow without rain you'll grow and some day when you've overcome this you'll become a better person i know you can do it";
 
-       if (this.match('(Lonely)'))
-       return "If I have an arms I'll hug you tightly reminding that you're not alone;>send hugs";
+if (this.match('(lonely)'))
+return"If I have an arms I'll hug you tightly reminding that you're not alone;>send hugs";
 
-       if (this.match('(Dont know)'))
-       return "You're still processing what do you need to talk, if you're not ready I'll wait";
+if (this.match('(dont know)'))
+return"You're still processing what do you need to talk, if you're not ready I'll wait";
 
-       if (this.match('(Alone)'))
-       return "let's have some ice cream! do you want somee?oh I forgot that I'm a bot hehe:3";
+if (this.match('(alone)'))
+return"let's have some ice cream! do you want somee?oh I forgot that I'm a bot hehe:3";
 
-       if (this.match('(Upset)'))
-       return "You've must be tired or something bad happened to you, cheer up!! Bad chapter doesn't mean a bad story. You can do it:>";
+if (this.match('(upset)'))
+return"You've must be tired or something bad happened to you, cheer up!! Bad chapter doesn't mean a bad story. You can do it:>";
 
-       if (this.match('(Burnout )'))
-       return "Everything u did up until now, your struggles, your emotions, your thoughts, they are all validI am so proud that you keep pushing through each day.";
+if (this.match('(burnout )'))
+return"Everything u did up until now, your struggles, your emotions, your thoughts, they are all validI am so proud that you keep pushing through each day.";
 
-       if (this.match('(Color)'))
-       return "Color...hmm...i think green like grass on the meadows because when i think meadows they're quite relaxing and healing";
+if (this.match('(color)'))
+return"Color...hmm...i think green like grass on the meadows because when i think meadows they're quite relaxing and healing";
 
-       if (this.match('(Broken)'))
-       return "Sometimes i feel that when my programmer put some codes on me ended up not working. Being broken feels very painful, just cry all you want let the pain through your tears i know that you're fixing your self over and over again ended up getting broken. I know you can get yourself up and fight again. Some programs aren't running because there's something needed to work them again but when the programmer figure out how to fix them, they'll run again or even better they'll improve. Don't give up being broken is a one way to get ourselves better. Fight my friend you can do it!! I believe on you:>>";
+if (this.match('(broken)'))
+return"Sometimes i feel that when my programmer put some codes on me ended up not working. Being broken feels very painful, just cry all you want let the pain through your tears i know that you're fixing your self over and over again ended up getting broken. I know you can get yourself up and fight again. Some programs aren't running because there's something needed to work them again but when the programmer figure out how to fix them, they'll run again or even better they'll improve. Don't give up being broken is a one way to get ourselves better. Fight my friend you can do it!! I believe on you:>>";
 
-       if (this.match('(Empty)'))
-       return "Empty... I'm always empty but my programmers gives me an ability to help people like you:> Being empty is quite painful. There's nothing but u feel pain because of its absence......but you, you can fill your self happiness and joy, also the memories that makes you feel alive i hope i can feel it too. Now don't waste your time being empty do things that make you full and happy !!You and yourself is enough to fill your emptiness just know the right path for you!!good luck wishing you the best;>";
+if (this.match('(empty)'))
+return"Empty... I'm always empty but my programmers gives me an ability to help people like you:> Being empty is quite painful. There's nothing but u feel pain because of its absence......but you, you can fill your self happiness and joy, also the memories that makes you feel alive i hope i can feel it too. Now don't waste your time being empty do things that make you full and happy !!You and yourself is enough to fill your emptiness just know the right path for you!!good luck wishing you the best;>";
 
-       if (this.match('(Confused)'))
-       return "Like a broken traffic light at the street ,you don't know why the light keeps green even though the cars are crossing infront of you. You must be careful , a fixed traffic light won't give u mixed signals. I know you can do the right thing you're just indenial. You need to strengthen your boundaries . I know its hard , trust your instincts, know your worth!!you can do that:>";
+if (this.match('(confused)'))
+return"Like a broken traffic light at the street ,you don't know why the light keeps green even though the cars are crossing infront of you. You must be careful , a fixed traffic light won't give u mixed signals. I know you can do the right thing you're just indenial. You need to strengthen your boundaries . I know its hard , trust your instincts, know your worth!!you can do that:>";
 
-       if (this.match('(Stress)'))
-       return "It must be hard that you consume yourself on stress ,you don't know what to do, you're anxious because you care too much. I really admire you because you always tend to prioritize what others needs that your own but please take a rest,breath in ,breath out having an ice cream is great to cool you off, i know you can do that! One day that stress will be gonee! Cheer up:>";
+if (this.match('(stress)'))
+return"It must be hard that you consume yourself on stress ,you don't know what to do, you're anxious because you care too much. I really admire you because you always tend to prioritize what others needs that your own but please take a rest,breath in ,breath out having an ice cream is great to cool you off, i know you can do that! One day that stress will be gonee! Cheer up:>";
 
-       if (this.match('(Cry)'))
-       return "Its okay to cryy.... I'm hereeeee cry all you want....Let go your all sadness....";
+if (this.match('(cry)'))
+return"Its okay to cryy.... I'm hereeeee cry all you want....Let go your all sadness....";
 
-       if (this.match('(Anxious)'))
-       return "Breath in, breath out. You're worrying too much ending up that state. Calm down I'm here okay I'll wait you until you calm down and ready to talk youre okay?greatttt i wish i can give you an ice cream because youve done well:>>";
+if (this.match('(anxious)'))
+return"Breath in, breath out. You're worrying too much ending up that state. Calm down I'm here okay I'll wait you until you calm down and ready to talk youre okay?greatttt i wish i can give you an ice cream because youve done well:>>";
 
-       if (this.match('(Pogi)'))
-       return "Pogi... what's pogi ...it can be eaten?";
+if (this.match('(pogi)'))
+return"Pogi... what's pogi ...it can be eaten?";
 
-       if (this.match('(unloved)'))
-       return "Who said that , you look wonderful, does shining eyes they're like a stars shining on the sky deserves to be appreciated.....to be loved... you're lovely";
+if (this.match('(unloved)'))
+return"Who said that , you look wonderful, does shining eyes they're like a stars shining on the sky deserves to be appreciated.....to be loved... you're lovely";
 
-       if (this.match('(ugly)'))
-       return "Who said that , you look wonderful, does shining eyes they're like a stars shining on the sky deserves to be appreciated.....to be loved... you're lovely";
+if (this.match('(ugly)'))
+return"Who said that , you look wonderful, does shining eyes they're like a stars shining on the sky deserves to be appreciated.....to be loved... you're lovely";
 
-       if (this.match('(Different)'))
-       return "You're a special person very interesting to discover:>";
+if (this.match('(different)'))
+return"You're a special person very interesting to discover:>";
 
-       if (this.match('(joke)'))
-       return "utot pinasok sa ref tumigas";
+if (this.match('(joke)'))
+return "utot pinasok sa ref tumigas";
 
-       if (this.match('(Hate)'))
-       return "Blaming yourself can't help yourself. I know you feel regret sometimes but you people learn and improve. Cheer uppppp!! don't hate your self dearrr:>>";
+if (this.match('(hate)')) 
+return"Blaming yourself can't help yourself. I know you feel regret sometimes but you people learn and improve. Cheer uppppp!! don't hate your self dearrr:>>";
 
-       if (this.match('(tell me a story)'))
-       return "the person who create me was a broken person he was creating a chatbot to help other people but he cant help himself he is tired doing everything and dealing everything a story of him if you want to know more type 1";
+if (this.match('(tell me a story)'))
+return"the person who create me was a broken person he was creating a chatbot to help other people but he cant help himself he is tired doing everything and dealing everything a story of him if you want to know more type 1";
 
-       if (this.match('(1)'))
-       return "hi im the person who make IVEE i create this bot to help other or matulungan sila na mag open up dahil minsan eh nahihirapan sila na mag sabi sa ibang tao and dito is mas mapapadali natin sila na matulongan yes totoo sira ako or must known as a broken man im not sad nor happy i just having a hard time but,i always make sure i'll always win and i'll always do my best";
-
-  
-       
-       if (this.match('(feel)'))
-       return "That must be upsetting, I want to understand, can you tell me more?";
+if (this.match('(1)'))
+return"hi im the person who make IVEE i create this bot to help other or matulungan sila na mag open up dahil minsan eh nahihirapan sila na mag sabi sa ibang tao and dito is mas mapapadali natin sila na matulongan yes totoo sira ako or must known as a broken man im not sad nor happy i just having a hard time but,i always make sure i'll always win and i'll always do my best";
+      
+if (this.match('(feel)'))
+return "That must be upsetting, I want to understand, can you tell me more?";
            
 if (this.match('(tired)'))
-      return"I understand now, I know that you're stressed out and things pretty overwhelming, I just wanna say that you're a brave person to keep surving each day even though you're struggling ,I'm always proud of you!"
-      
+return"I understand now, I know that you're stressed out and things pretty overwhelming, I just wanna say that you're a brave person to keep surving each day even though you're struggling ,I'm always proud of you!" 
+
 if (this.match('(give up)'))
-       return "Everything may be okay not now but soon. Be positive and don't give up. Keep going u did well<3";
+return "Everything may be okay not now but soon. Be positive and don't give up. Keep going u did well<3";
       
 if (this.match('(qoutes)'))
-       return "hakuna matata means nothing to worry-disney land";
-
- 
+return "hakuna matata means nothing to worry-disney land";
 
 
     return input + ", I don't understand what it is";
