@@ -10,7 +10,7 @@ function chatBot() {
     return"Hiiii lovely! I'm Ivee";
 
      if (this.match('(how are you)'))
-       return"im fine how about you?";
+       return"im fine, how's your day?";
 
     
         if (this.match('(sad)'))
@@ -106,8 +106,16 @@ return "Everything may be okay not now but soon. Be positive and don't give up. 
 if (this.match('(qoutes)'))
 return "hakuna matata means nothing to worry-disney land";
 
+if (this.match('(thank you)'))
+return "you're sweet,also thank you for sharing your problem";
 
-    return input + ", I don't understand what it is";
+if (this.match('(bad day )'))
+return "may i know what happend?";
+
+
+
+
+    return input + ",";
   };
 
   
